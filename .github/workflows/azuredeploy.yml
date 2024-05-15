@@ -23,6 +23,9 @@ jobs:
     - name: Build React app
       run: npm run build
 
+    - name: Move Web Config to build dir
+      run: mv web.config dist/web.config
+
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
