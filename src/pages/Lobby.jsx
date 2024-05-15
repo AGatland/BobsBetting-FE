@@ -10,26 +10,6 @@ import { AuthContext } from "../App";
 import { useContext } from "react";
 import GameRoom from '../components/gameroom'
 
-/*
-initialGameState = {
-  currentRound: "",
-  currentPlayerId: "",
-  communityCards: [
-    {
-      suit: "",
-      value: ""
-    }
-  ],
-  publicPlayerStates: [
-    {
-      userId: 0,
-      username: "",
-      currentBet: 0,
-      isFolded: false
-    }
-  ]
-}*/
-
 function Lobby() {
     const [conn, setConnection] = useState();
     const [lobbyConn, setLobbyConn] = useState(); 
