@@ -1,0 +1,28 @@
+.dashboard-container {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.dashboard-badges {
+    display: grid;
+    grid-template-columns: repeat(5, auto); /* 5 columns by default */
+}
+
+@media screen and (max-width: 1000px) {
+    .dashboard-badges {
+        grid-template-columns: repeat(4, auto); /* Change to 2 columns for phone view */
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .dashboard-badges {
+        grid-template-columns: repeat(3, auto); /* Change to 2 columns for phone view */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dashboard-badges {
+        grid-template-columns: repeat(2, auto); /* Change to 2 columns for phone view */
+    }
+}

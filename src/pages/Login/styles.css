@@ -1,0 +1,53 @@
+.login {
+    display: flex;
+    flex-direction: column;
+  
+    height: 100%;
+    width: 100%;
+  }
+  
+  .login h2 {
+    text-align: center;
+  }
+  
+  .login span {
+    color: red;
+    margin-left: 40%;
+  }
+  
+  .login-form {
+    display: grid;
+    grid-template-columns: 20% 40%;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .login-button {
+    margin-top: 20px;
+    margin-left: 40%;
+    float: bottom;
+    background-color: rgb(58, 59, 58);
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    font-size: smaller;
+    transition: 200ms;
+    width: 15%;
+  }
+  
+  .login-button:hover {
+    background-color: rgb(164, 236, 200);
+    color: black;
+    transition: 200ms;
+  }
+  
+  .login-button:active {
+    background-color: rgb(39, 44, 42);
+    color: rgb(26, 31, 31);
+    transform: scale(0.9);
+    transition: 10ms;
+  }
+  
+  .signup-link {
+    margin-left: 40%;
+  }

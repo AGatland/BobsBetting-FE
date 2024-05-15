@@ -1,0 +1,18 @@
+.header-container {
+    height: 100px;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.87);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-container-right > h2 {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header-container-right {
+    margin-top: 22px;
+}
