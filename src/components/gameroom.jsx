@@ -1,7 +1,5 @@
 import { Button, Col, Row } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import MessageContainer from './messagecontainer';
-import SendMessageForm from './SendMessageForm';
 
 function GameRoom({gameState, hand, startPokerGame, playerAction, winnerData}) {
 
@@ -38,7 +36,7 @@ function GameRoom({gameState, hand, startPokerGame, playerAction, winnerData}) {
             <Col>
                 <h4>Community Cards: </h4>
                 {gameState.communityCards.map((card, index) => 
-                        <img height={"150px"} key={index} src={`./src/assets/deck/${card.rank}${card.suit.charAt(0)}.svg`}></img>    
+                        <img height={"150px"} key={index} src={`./deck/${card.rank}${card.suit.charAt(0)}.svg`}></img>    
                     )}
                 </Col>
             </Row>
@@ -65,7 +63,7 @@ function GameRoom({gameState, hand, startPokerGame, playerAction, winnerData}) {
                 <Col>
                     <h4>Your Hand: </h4>
                     {hand.map((card, index) => 
-                        <img height={"150px"} key={index} src={`./src/assets/deck/${card.rank}${card.suit.charAt(0)}.svg`}></img>    
+                        <img height={"150px"} key={index} src={`./deck/${card.rank}${card.suit.charAt(0)}.svg`}></img>    
                     )}
                 </Col>
                 <Col>
