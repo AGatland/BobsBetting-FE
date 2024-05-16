@@ -51,10 +51,10 @@ function Login() {
   return (
     <div className="login">
       <h2>Log In</h2>
-      {invalid && <span>Invalid email or password</span>}
+      {invalid && <span>Invalid username or password</span>}
       <form onSubmit={handleSubmit}>
         <div className="login-form">
-          <label>Email</label>
+          <label>Username</label>
           <input
             type="text"
             name="username"

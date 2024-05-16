@@ -1,0 +1,53 @@
+.signup {
+    display: flex;
+    flex-direction: column;
+  
+    height: 100%;
+    width: 100%;
+  }
+  
+  .signup h2 {
+    text-align: center;
+  }
+  
+  .signup span {
+    color: red;
+    margin-left: 40%;
+  }
+  
+  .signup-form {
+    display: grid;
+    grid-template-columns: 20% 40%;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .signup-form button {
+    margin-top: 20px;
+    float: bottom;
+    background-color: darkgreen;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    color: white;
+    font-size: smaller;
+    transition: 200ms;
+    width: 100%;
+  }
+  
+  .signup-form button:hover {
+    background-color: rgb(164, 236, 200);
+    color: black;
+    transition: 200ms;
+  }
+  
+  .signup-form button:active {
+    background-color: rgb(84, 201, 143);
+    color: rgb(26, 31, 31);
+    transform: scale(0.9);
+    transition: 10ms;
+  }
+  
+  .login-link {
+    margin-left: 20%;
+  }
